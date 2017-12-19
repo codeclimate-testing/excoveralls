@@ -1,4 +1,4 @@
-ExCoveralls [![Test Coverage](https://api.codeclimate.com/v1/badges/be803aa7f7037f9ae13e/test_coverage)](https://codeclimate.com/github/ale7714/excoveralls/test_coverage) 
+ExCoveralls [![Test Coverage](https://api.codeclimate.com/v1/badges/ed699ff1cbb3c01c84b4/test_coverage)](https://codeclimate.com/github/codeclimate-testing/excoveralls/test_coverage)
 ============
 
 An Elixir library that reports test coverage statistics, with the option to post to [coveralls.io](https://coveralls.io/) service.
