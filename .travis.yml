@@ -8,7 +8,7 @@ env:
     - CC_TEST_REPORTER_ID=f611556edda9a27a3faace9b837185944ada203dfca1ec3242a4d0a35162f9fc
     - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)   
 before_script: 
-- curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-excoveralls-rc1.0-linux-amd64 > ./cc-test-reporter 
+- curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter 
 - chmod +x ./cc-test-reporter 
 - ./cc-test-reporter before-build
 script:
